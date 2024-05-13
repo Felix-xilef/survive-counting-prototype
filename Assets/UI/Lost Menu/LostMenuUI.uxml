@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="EndOfGameMenuUI" src="project://database/Assets/UI/End%20Of%20Game%20Menu/EndOfGameMenuUI.uxml?fileID=9197481963319205126&amp;guid=1a2b2ac1ba65f03479a2eeee0c6e74c2&amp;type=3#EndOfGameMenuUI" />
+    <Style src="project://database/Assets/UI/Lost%20Menu/LostMenuStyle.uss?fileID=7433441132597879392&amp;guid=abd7477782daefa46acc38d3c344ea9d&amp;type=3#LostMenuStyle" />
+    <engine:Instance template="EndOfGameMenuUI" class="end-of-game-template">
+        <AttributeOverrides element-name="EndOfGameText" text="You were caught!" />
+        <AttributeOverrides element-name="PlayButton" text="Play Again" />
+    </engine:Instance>
+</engine:UXML>

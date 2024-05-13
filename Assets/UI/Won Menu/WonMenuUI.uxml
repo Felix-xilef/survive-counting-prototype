@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="EndOfGameMenuUI" src="project://database/Assets/UI/End%20Of%20Game%20Menu/EndOfGameMenuUI.uxml?fileID=9197481963319205126&amp;guid=1a2b2ac1ba65f03479a2eeee0c6e74c2&amp;type=3#EndOfGameMenuUI" />
+    <Style src="project://database/Assets/UI/Won%20Menu/WonMenuStyle.uss?fileID=7433441132597879392&amp;guid=6e76a9385379a14418daeade9b4d2b26&amp;type=3#WonMenuStyle" />
+    <engine:Instance template="EndOfGameMenuUI" class="end-of-game-template">
+        <AttributeOverrides element-name="EndOfGameText" text="You Survived!" />
+        <AttributeOverrides element-name="PlayButton" text="Play Again" />
+    </engine:Instance>
+</engine:UXML>

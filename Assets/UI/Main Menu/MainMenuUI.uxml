@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Main%20Menu/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=31987effe8412614f8bd25646a105e94&amp;type=3#MainMenuStyle" />
+    <ui:VisualElement class="main-container">
+        <ui:Label text="Counting Prototype" class="main-title" />
+        <ui:GroupBox class="main-buttons-container">
+            <ui:Button text="Play" name="PlayButton" class="main-button main-start-button" />
+            <ui:Button text="How To Play" name="HowToPlayButton" class="main-button main-how-to-play-button" />
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

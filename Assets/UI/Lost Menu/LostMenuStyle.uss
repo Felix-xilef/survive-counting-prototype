@@ -1,0 +1,11 @@
+.end-of-game-template {
+    height: 100%;
+}
+
+.end-of-game-text {
+    -unity-font-style: bold;
+    font-size: 55px;
+    align-self: center;
+    rotate: 10deg;
+    color: rgb(82, 0, 203);
+}

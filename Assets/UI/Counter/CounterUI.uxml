@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Counter/CounterStyle.uss?fileID=7433441132597879392&amp;guid=c6e0cde550a64714bb69ab666103d08e&amp;type=3#CounterStyle" />
+    <ui:GroupBox>
+        <ui:Label tabindex="-1" text="Counter:" />
+        <ui:Label text="0" name="CounterLabel" binding-path="counter" />
+    </ui:GroupBox>
+</ui:UXML>

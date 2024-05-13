@@ -1,0 +1,19 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/How%20To%20Play/HowToPlayStyle.uss?fileID=7433441132597879392&amp;guid=a9d05f1d32b39244690f093e85f22622&amp;type=3#HowToPlayStyle" />
+    <engine:VisualElement class="container">
+        <engine:GroupBox class="panel" style="max-width: 800px; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; align-items: stretch;">
+            <engine:Label text="The goal of the game is to survive without being caught by any &lt;b&gt;ENEMY&lt;/b&gt; for &lt;b&gt;60 SECONDS&lt;/b&gt;, while catching the most amount of them.&#10;To be able to catch &lt;b&gt;ENEMIES&lt;/b&gt; without being caught, you must first collect &lt;b&gt;POWERUPS&lt;/b&gt;." class="text" />
+            <engine:GroupBox class="examples-wrapper">
+                <engine:GroupBox class="example-group">
+                    <engine:Label text="Enemy:" class="example-text" />
+                    <engine:VisualElement class="example-image" style="background-image: url(&quot;project://database/Assets/Images/Enemy.png?fileID=2800000&amp;guid=177c05cf19cfad74e864f4a013b0bee1&amp;type=3#Enemy&quot;);" />
+                </engine:GroupBox>
+                <engine:GroupBox class="example-group">
+                    <engine:Label text="Powerup:" class="example-text" />
+                    <engine:VisualElement class="example-image" style="background-image: url(&quot;project://database/Assets/Images/Powerup.png?fileID=2800000&amp;guid=38ca8da7017bbc247ae7dfe4c44334be&amp;type=3#Powerup&quot;);" />
+                </engine:GroupBox>
+            </engine:GroupBox>
+            <engine:Button text="Close" name="CloseButton" class="close-button" />
+        </engine:GroupBox>
+    </engine:VisualElement>
+</engine:UXML>

@@ -1,0 +1,8 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:Template name="MainMenuUI" src="project://database/Assets/UI/Main%20Menu/MainMenuUI.uxml?fileID=9197481963319205126&amp;guid=18270d33255dd324391b67a4675fb40d&amp;type=3#MainMenuUI" />
+    <Style src="project://database/Assets/UI/End%20Of%20Game%20Menu/EndOfGameMenuStyle.uss?fileID=7433441132597879392&amp;guid=128aed11af2808142aab405f279b31dc&amp;type=3#EndOfGameMenuStyle" />
+    <engine:VisualElement class="end-of-game-container">
+        <engine:Label text="End of Game" name="EndOfGameText" class="end-of-game-text" />
+        <engine:Instance template="MainMenuUI" class="menu-template" />
+    </engine:VisualElement>
+</engine:UXML>

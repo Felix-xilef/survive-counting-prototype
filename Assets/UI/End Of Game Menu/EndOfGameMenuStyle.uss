@@ -1,0 +1,36 @@
+.end-of-game-container {
+    flex-grow: 1;
+    justify-content: center;
+    background-color: rgba(149, 220, 169, 0.59);
+}
+
+.end-of-game-text {
+    -unity-font-style: bold;
+    font-size: 55px;
+    align-self: center;
+}
+
+.menu-template {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.menu-template .main-container {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.menu-template .main-title {
+    font-size: 40px;
+}
+
+.menu-template .main-buttons-container {
+    padding-top: 25px;
+}
+
+.menu-template .main-button {
+    font-size: 14px;
+}
+
+.menu-template .main-start-button {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,12 @@
+.unity-group-box {
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.unity-label {
+    font-size: 30px;
+    color: rgb(100, 25, 226);
+    -unity-font-style: bold;
+}

@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Timer/TimerStyle.uss?fileID=7433441132597879392&amp;guid=a20c40fa909c67642ae8044d70bdb7f6&amp;type=3#TimerStyle" />
+    <ui:Label text="00:00" name="TimerLabel" binding-path="timerText" />
+</ui:UXML>

@@ -1,0 +1,14 @@
+.unity-label {
+    font-size: 30px;
+    color: rgb(100, 25, 226);
+    -unity-font-style: bold;
+    align-self: center;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
